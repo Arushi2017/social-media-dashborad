@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right , rgb(197, 180, 102), rgb(84, 146, 161));
+}
+.login{
+    width: 350px;
+    margin: auto;
+    margin:10 -30 0 0;
+    overflow: hidden;
+    padding: 75px;
+    border: 1px whitesmoke solid;
+    border-radius: 10px;
+    background: transparent;
+    z-index: 1;
+
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    padding: 10px;
+    background: transparent;
+}
+label{
+    color: white;
+    padding-left: -10px;
+    margin-left: -18px;
+}
+.inputtext{
+    width: 250px;
+    height: 30px;
+    border: 1px whitesmoke soild;
+    background: transparent;
+    margin-top: 8px;
+    border-radius: 2px;
+    padding-left: 2px;
+    margin-left: -18px;
+}
+#logbutton{
+    width: 50px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+    padding-left: 2px;
+    background: linear-gradient(to right , rgb(21, 175, 111), rgb(115, 255, 0));
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bolder;
+    transition: 0.3s;
+    align-items: center;
+    margin-left: 60px;
+    margin-bottom: -40px;
+}
+
+#logbutton:hover{
+    border: 1px whitesmoke solid;
+    border-radius: 50px;
+    background: transparent;
+
+}
